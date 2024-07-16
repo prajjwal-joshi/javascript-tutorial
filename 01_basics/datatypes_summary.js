@@ -23,3 +23,23 @@ const myFunction = function(){
 }
 
 console.log(typeof id)
+
+
+//stack (Primitive), Heap (Non-Primitive)
+ 
+let myYoutubeName = "prajjwaljoshi"
+let anothername = myYoutubeName //copy is given
+anothername = "chaiaurjs"
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+let user1 = {
+    email: "user@google.com",
+    upi: "user@bpl"
+}
+
+let user2 = user1; //reference is given
+user2.email = "prajjwal@google.com"
+console.log(user1.email);
+console.log(user2.email);
