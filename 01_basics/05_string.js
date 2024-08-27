@@ -23,7 +23,7 @@ const anotherString = gameName.slice(-8, 4)
 console.log(anotherString);
 
 const newString1 = "   prajjwal  "
-console.log(newString1);
+// console.log(newString1);
 console.log(newString1.trim());
 
 const url = "https://prajjwal.com/prajjwal%20joshi"
