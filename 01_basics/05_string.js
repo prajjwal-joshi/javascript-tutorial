@@ -8,8 +8,11 @@ const repoCount = 10
 
 const gameName = new String('prajjwal-joshi-coder')
 
-// console.log(gameName[0]);
-// console.log(gameName.__proto__);
+console.log(gameName[0]);
+gameName[0] = 'p'.toUpperCase();
+console.log(gameName[0]); //this doesn't change in the string
+
+console.log(gameName.__proto__);
 
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
